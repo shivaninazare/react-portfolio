@@ -1,0 +1,31 @@
+.con{
+    background-color: rgb(31, 28, 28);
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.aboutme{
+    background-color: whitesmoke;
+}
+
+video{
+    width:400px;
+    height:200px
+}
+
+@media only screen and (max-width: 700px) {
+    .con{
+        background-color: rgb(31, 28, 28);
+        display: list-item;   
+    }
+    .about{
+        display: block;
+    }
+    video{
+        display: block;
+        width:200px;
+        height: 100px;
+        justify-content: center;
+    }
+  }

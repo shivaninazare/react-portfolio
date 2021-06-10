@@ -1,0 +1,40 @@
+.App {
+  height: 100vh;  
+  
+
+  .sections{
+    
+    width: 100%;
+    height: calc(100vh);
+    background-image: url("./assets/images/pb.png");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.863);
+    position: relative;
+    top: 0;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scroll-padding-bottom: 70px;
+    scroll-snap-type: y mandatory;
+
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+      display: none;
+    }
+
+
+    >*{
+      padding-top: 70px;
+      width: 100vw;
+      height: calc(100vh);
+      scroll-snap-align: start ;
+      scrollbar-width: none;
+    }
+    //overflow-x: hidden;
+  }
+}
+
+
+

@@ -1,0 +1,51 @@
+.home{
+  color: white;
+}
+.name{
+	
+    color: rgb(216, 223, 233);
+    padding: "1px";
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: center;
+  
+}
+
+.name1{
+margin-top: 1rem;
+color: #f5de12;
+//padding: "40px";
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 2.5rem;
+text-align: center;
+}
+
+.mt-0 {
+    
+    margin-top: 0 !important;
+    padding-top: 0%;
+  }
+
+.about{
+    
+    margin-left: 20px;
+}
+h6 {
+    
+    
+    margin: 0 auto;
+    margin-left: 0rem;
+    max-width: 200px;
+    padding: 12px ;
+    
+  }
+
+.con{
+   display:flex;
+   justify-content: space-around;
+}
+
+h5{
+  text-align: center;
+  color:rgba(111, 230, 88, 0.863);
+}
