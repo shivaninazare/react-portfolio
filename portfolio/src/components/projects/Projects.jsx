@@ -24,13 +24,13 @@ export default function Projects(){
             <SlidingContainer
                 options={{
                     className: "sl2 my-slider",
-                    height: "420px",
+                    height: "500px",
                     slideXMarginPx: 0,
                     showArrows: true,
                     slideYMarginPx: 0,
                     width:"90%"
                     
-                  }} background-color="balck"  >
+                  }} background-color="black"  >
                    
                 <Slide backgroundImage={bot} background-size="100% 100%">
                   <Card className="sl1">
