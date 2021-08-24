@@ -14,6 +14,7 @@ export default function Navbar({menuOpen, setMenuOpen}) {
                     <Button className="button" href="#aboutme" >Aboutme</Button>
                     <Button className="button" href="#experience" color="secondary">Skills</Button>
                     <Button className="button" href="#projects" color="white">Projects</Button>
+                    <Button className="button" href="#contact">Contact</Button>
                     <Button className="button" id="resume" href="https://drive.google.com/file/d/1us7f7ceUaLKV5x_IXasKWKsrD4ixURpH/view?usp=sharing" color="white">Resume</Button>
                 </div>
                 <div className="mright" onClick={()=>setMenuOpen(!menuOpen)}>

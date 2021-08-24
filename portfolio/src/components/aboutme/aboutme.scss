@@ -1,12 +1,17 @@
 .con{
-    background-color: rgb(31, 28, 28);
+    background-color: rgb(238, 230, 235);
     margin-top: 2%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
 }
 
 .aboutme{
-    background-color: whitesmoke;
+background-color: whitesmoke;
+font-size:120%;
+font-family:'Times New Roman';
+color: rgb(6, 17, 22);
 }
 
 video{
@@ -20,7 +25,7 @@ video{
         display: list-item;   
     }
     .about{
-        display: block;
+        display:block;
     }
     video{
         display: block;
